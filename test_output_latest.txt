@@ -1,0 +1,58 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.zetapay:zetapay-automation >-------------------
+[INFO] Building zetapay-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ zetapay-automation ---
+[INFO] Deleting D:\Rajnish Kumar\Desktop\ZetaPay\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ zetapay-automation ---
+[INFO] skip non existing resourceDirectory D:\Rajnish Kumar\Desktop\ZetaPay\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ zetapay-automation ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ zetapay-automation ---
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ zetapay-automation ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 13 source files with javac [debug target 17] to target\test-classes
+[WARNING] system modules path not set in conjunction with -source 17
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ zetapay-automation ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Created User ID: 12345
+Jan 20, 2026 11:32:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 20, 2026 11:32:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.65 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.918 s
+[INFO] Finished at: 2026-01-20T11:32:34+05:30
+[INFO] ------------------------------------------------------------------------
